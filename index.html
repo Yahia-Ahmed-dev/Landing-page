@@ -1,81 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Development Services - Creating modern, responsive websites">
+    <meta name="keywords" content="web development, frontend, responsive design, portfolio">
     <link rel="stylesheet" href="style.css">
-    <title>Landin page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>CodeCraft | Professional Web Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dangrek&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header-hero">
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="header-links">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>CodeCraft</span>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="nav-links" id="navLinks">
                 <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
-        <div class="hero">
-            <div class="left-side">
-                <h2>This Website is <br> awesome</h2>
-                <p>This website has some subtext that goes under the <br> main title. it's a smaller font and the color
-                    is lower <br> contrast</p>
-                <button>Sign-up</button>
-            </div>
-            <div class="right-side">
-                <img src="https://cdni.iconscout.com/illustration/premium/thumb/male-frontend-developer-illustration-download-in-svg-png-gif-file-formats--html-logo-development-web-user-interface-pack-design-illustrations-6817791.png?f=webp"
-                    alt="hero-img">
-            </div>
-        </div>
-    </div>
-    <div class="info">
-        <div class="info-text">
-            Some random information
-        </div>
-        <div class="info-img">
-            <img src="https://learn.g2.com/hs-fs/hubfs/small%20biz%20tech%20stack.jpg?width=2000&height=1333&name=small%20biz%20tech%20stack.jpg"
-                alt="">
-            <img src="https://elasticsales.com/wp-content/uploads/2023/06/How-to-Build-a-Tech-Stack-for-Your-Small-Business.png"
-                alt="">
-            <img src="https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-208add5/ossisto.com/wp-content/uploads/2024/07/Common-Tech-Issues-Faced-by-Small-Businesses.webp"
-                alt="">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS08UF_iNvcGDHfcANRdLvHleDpyic1J4i3dMYvtouyz-9m7XTcqc9VytiSfNyEkZXNjDE&usqp=CAU"
-                alt="">
-        </div>
-        <div class="under-text">
-            <p>text under images</p>
-            <p>text under images</p>
-            <p>text under images</p>
-            <p>text under images</p>
-        </div>
+    </nav>
 
-        <div class="quotes">
-            This is an inspiring quotes , Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium in
-            quibusdam rerum animi quidem velit dolore temporibus fugit error expedita. Omnis veniam cumque beatae unde,
-            enim illo quasi laborum quod? Aliquam nihil repellat commodi laborum,
-            <p>Thor , God of thunder</p>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting Digital Experiences That <span class="highlight">Convert</span></h1>
+                <p class="hero-subtitle">We build fast, responsive, and modern websites that help businesses grow online. From concept to launch, we handle everything.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Start Project
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <i class="fas fa-eye"></i> View Work
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                     alt="Web Development Illustration" 
+                     class="hero-img">
+                <div class="tech-icons">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="call-action">
-        <div class="call-left">
-            <div class="first">Call to action! it's time!</div>
-            <p>Sign up for our product by clicking that button right over there!</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+            <p class="section-subtitle">We offer comprehensive web development solutions for your business</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies like React, Vue.js, and Node.js for optimal performance.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach ensuring your website looks perfect on all devices and screen sizes.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Speed Optimization</h3>
+                    <p>We optimize websites for lightning-fast loading times, improving user experience and SEO.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Complete online store setup with payment integration, inventory management, and analytics.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
-        <button>Sign-up</button>
-    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <p class="section-subtitle">Check out some of our recent successful projects</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Finance Dashboard">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Finance Dashboard</h3>
+                        <p>Interactive dashboard for financial analytics with real-time data visualization.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Complete online shopping platform with payment gateway and admin panel.</p>
+                        <div class="portfolio-tags">
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Travel Blog">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Travel Blog Platform</h3>
+                        <p>Content management system for travel bloggers with image optimization.</p>
+                        <div class="portfolio-tags">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client <span class="highlight">Testimonials</span></h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"CodeCraft transformed our online presence completely. Their attention to detail and technical expertise exceeded our expectations. The website they built increased our conversions by 40%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client">
+                        <div>
+                            <h4>Michael Johnson</h4>
+                            <p>CEO, TechSolutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Working with CodeCraft was a game-changer for our startup. They delivered a stunning, high-performance website ahead of schedule. Their team is professional, responsive, and incredibly talented."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client">
+                        <div>
+                            <h4>Sarah Williams</h4>
+                            <p>Founder, GreenLeaf Organics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Digital Presence?</h2>
+                <p>Let's discuss your project and create something amazing together. We're just a message away!</p>
+                
+                <div class="cta-buttons">
+                    <a href="mailto:hello@codecraft.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                    <a href="tel:+1234567890" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+                
+                <div class="cta-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free Consultation</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>No Hidden Costs</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        copyright &copy; The odin project 2021
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>CodeCraft</span>
+                    <p>Creating digital experiences that drive results.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Digital City</p>
+                        <p><i class="fas fa-phone"></i> +1 (234) 567-890</p>
+                        <p><i class="fas fa-envelope"></i> hello@codecraft.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CodeCraft. All rights reserved. | Designed with <i class="fas fa-heart"></i> for the web</p>
+            </div>
+        </div>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
